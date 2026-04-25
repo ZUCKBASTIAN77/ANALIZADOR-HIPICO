@@ -18,7 +18,7 @@ if peso <= 475 and peso_j <= 54:
     st.success(f"PROYECCION DE ORO {nombre}: joven y ligero :trophy:")
 
 elif peso <= 510 and peso_j <= 57:
-     st.info("PROYECCION DE PLATA {nombre}: buen perfil competitivo :second_place_medal:")
+     st.info(f"PROYECCION DE PLATA {nombre}: buen perfil competitivo :second_place_medal:")
 else:
      st.warning(f"PROYECCION DE BRONCE: no cumple con el perfil optimo:third_place_medal:")
 
